@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.addItemDecoration(itemDecoration);
 
         loadAnswers();
-
     }
 
     public void loadAnswers() {
