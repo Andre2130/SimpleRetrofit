@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.simpleretrofit.R;
 import com.example.simpleretrofit.data.data.model.Item;
 
 import java.util.List;
@@ -25,7 +26,7 @@ public class AnswerAdapter extends RecyclerView.Adapter<AnswerAdapter.ViewHolder
 
         public ViewHolder(View itemView, PostItemListener postItemListener) {
             super(itemView);
-            titleTv = (TextView) itemView.findViewById(android.R.id.text1);
+            titleTv = itemView.findViewById(android.R.id.text1);
 
             this.mItemListener = postItemListener;
             itemView.setOnClickListener(this);
